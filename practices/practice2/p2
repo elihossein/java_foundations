@@ -1,0 +1,11 @@
+int counter = 0;
+final var c2k = 273.15;
+final double absoluteZero = -459.67;
+char unit = 'F';
+double t1 = 0;
+t1
+t1 = (t1 == 0) ? absoluteZero : t1;
+t1 = (t1-32)*5/9 +c2k;
+counter++;
+counter
+boolean isSI = (unit != 'F');
